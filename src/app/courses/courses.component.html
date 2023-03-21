@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="h2">
+        <h2>All Courses</h2>
+    </div>
+    
+    <ng-container *ngFor="let cour of course">
+        <div class="course-container">
+            <div class="course-card">
+                <div>
+                    <img [src]="cour.image" style="width:520px; height:330px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                </div>
+                <div class="course-name"><h4>{{ cour.name}}</h4></div>
+                <div class="course-description"><p>{{cour.description.slice(0, 80)}}...</p></div>
+                <div class="details">
+                    <div class="course-type" [ngStyle]="{color: cour.type === 'Free' ? 'Green' : 'Red'}">{{cour.type}}</div>
+                    <div class="course-price"><b>Price:</b> ${{cour.price}}</div>
+                </div>
+                <div class="course-button" id="course-btn">
+                    <button class="btn btn-buy">Buy Now</button>
+                    <button class="btn btn-show" routerLink="/Courses/course/{{cour.id}}">Show Deatils</button>
+                </div>
+            </div>
+        </div>  
+    </ng-container>
+    <router-outlet></router-outlet>
+</div>

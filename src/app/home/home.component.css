@@ -1,0 +1,82 @@
+.container{
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 30px 10px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    text-align: center;
+}
+.main-section{
+    background: rgb(74,74,74);
+    background: linear-gradient(90deg, rgb(108, 108, 108) 0%, rgb(93, 91, 91) 100%, rgba(133,133,133,1) 100%);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.main-section h1{
+    text-align: center;
+    width: 800px;
+}
+h2{
+    color: rgb(40, 39, 39);
+    font-size: 30px;margin-bottom: 0px;
+    
+}
+.course-container{
+    display: inline-flex;
+}
+.course-card{
+    width:320px;
+    height: 55vh;
+    margin: 10px 10px;
+    background-color: #F8F9F9;
+}
+.course-name{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.course-description{
+    margin:0px 0px;
+    padding: 0px 10px 5px 10px;
+  font-size: 20px;
+}
+
+.details{
+    display: flex;
+    margin: 10px 0px;
+    font-size: 23px;
+}
+.course-type{
+    width:50%;
+    font-weight: bold;
+}
+.course-buttons{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+}
+.btn{
+    width: 140px;
+    margin-left: 10px;
+    height: 5vh;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    box-shadow: #EFEFEF;
+    border: none;
+   
+}
+.btn-buy{
+    background-color: #070036;
+    color: white;
+}
+.btn-show{
+    background-color: #f75c13;
+    color: white;
+}

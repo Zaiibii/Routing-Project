@@ -1,0 +1,52 @@
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: #EFEFEF;
+    margin: 10px auto;
+    border: 1px solid rgb(163, 163, 163);
+}
+.nav-container{
+  position: fixed;
+  width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eaeaea;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #dfdfdf;
+  }
+  .spinner{
+    border:16px solid silver;
+    border-top: 16px solid  #bc0c0c;
+    border-radius: 50%;
+    width:80px;
+    height: 80px;
+    animation: spin 700ms linear infinite;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+  }
+  @keyframes spin{
+    0%{transform: rotate(0deg)}
+    100%{transform:rotate(100deg)}
+  }
